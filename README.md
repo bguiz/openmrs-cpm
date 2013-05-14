@@ -35,6 +35,8 @@ Quickstart
     * `omod/target/cpm-1.0-SNAPSHOT-<build-id>.omod`
 5. Install the module into OpenMRS by uploading the OMOD file within administration section:
     * Administration -> Manage Modules -> Add or upgrade module -> Add module
+6. Looking for the front end code? It's here:
+    * `omod/src/main/webapp/resources`
 
 
 How to Contribute
@@ -64,7 +66,7 @@ Sample workflow
         refactor
         run(tests)
         git add .
-        git commit -m 'Somthing meaningful'
+        git commit -m 'Something meaningful'
 
     git push origin 92-github-move
     open https://github.com/OpenMRS-Australia/openmrs-cpm
